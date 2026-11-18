@@ -9,8 +9,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    background-color: gray;
 
     margin: 0;
+}
+
+h3 {
+    margin: 5px;
 }
 
 /* #region header */
@@ -153,10 +158,6 @@ li {
 
 #timeline > ul li {
     margin-bottom: 5px;
-}
-
-#timeline > h3 {
-    margin: 5px;
 }
 
 /* #endregion */
