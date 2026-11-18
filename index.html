@@ -3,23 +3,24 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Page Title</title>
     <link rel='stylesheet' href='main.css'>
+    <title>Životopis</title>
 </head>
 <body>
     <div id="page">
-        <header>
+        <div id="header">
             <div id="name">
                 <h1>Jan Honner</h1>
                 <div id="icons">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
-                    <p>jan.honner@infis.cz</p>
+                    <p>honner.jan@gmail.com</p>
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M760-480q0-117-81.5-198.5T480-760v-80q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480h-80Zm-160 0q0-50-35-85t-85-35v-80q83 0 141.5 58.5T680-480h-80Zm198 360q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
                     <p>733 626 469</p>
                 </div>
             </div>
-            <img src="images/portrait.png" alt="portrét">
-        </header>
+            <img src="images\portrait.png" alt="portrét">
+        </div>
+        
         <div id="right">
             <div class="section">
                 <div class="head">
@@ -42,13 +43,14 @@
                     <h1>Další technologie</h1>
                 </div>
                 
-                <p>Jako vývojové prostředí skoro denně používám <b>Visual Studio code</b> na operačním systému <b>Windows</b>, ale jsem schopen fungovat i na <b>Linuxu</b>.</p>
+                <p>Jako vývojové prostředí skoro denně používám <b>Visual Studio code</b> a operační systému <b>Linux</b>, konkétně Kubuntu, ale jsem schopen fungovat i na <b>MS Windows</b>.</p>
                 <p>Mezi moje další technologické dovednosti patří například: </p>
                 <ul>
                     <li> Znalost celého <b>Microsoft office</b> balíčku <i>(Word, Excel...)</i> </li>
-                    <li> Znalosti ve stavbě, užití a ovládání tabulkových databází a jazyka <b>SQL</b> </li>
+                    <li> Znalosti ve stavbě, užití a ovládání relačních databází a jazyka <b>SQL</b> </li>
                     <li> Hlubší znalost fungování síťových protokolů jako <b>TCP</b>, <b>UDP</b>, <b>HTTP</b>, <b>SMTP</b> aj.</li>
                     <li> Základní až středně pokročilé schopnosti <b>webdesignu</b></li>
+                    <li> Znlosti implementce dynmických webových stránek s <b>ASP .NET Razor Pages</b></li>
                     <li> Psaní <b>všemi deseti</b></li>
                 </ul>
             </div>
@@ -75,24 +77,32 @@
         <div id="left">
             <div class="section">
                 <div class="head">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z"/></svg>
-                    <h1>Vzdělání</h1>
-                </div>
-                <p>Jsem studentem <b>druhého ročníku</b> <a href="https://infis.cz">Střední školy informatiky a finančních služeb, Klatovská 200G</a>. Maturovat budu ve školním roce 2027/28, a poté budu nejspíše pokračovat ve studiu na <a href="https://zcu.cz">Západočeské universitě v Plzni</a>.</p>
-                <p>Mezi mé studijní úspěchy patří například úspěšná účast v projektu <a href="https://mimoradnestudium.zcu.cz/">Mimořádné studium</a> na <a href="https://zcu.cz">ZČU</a> v prvním pololetí školního roku 2025/26, a to v oboru počítače a programování. Za absolvování předmětu jsem obdržel <a href="https://drive.google.com/file/d/1SZVGBUyY4DMwZ7-I8UCIkbYXZx0WNKOC/view?usp=sharing">osvědčení</a>.</p>
-            </div>
-
-            <div class="section">
-                <div class="head">
                     <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0 10c2.7 0 5.8 1.29 6 2H6c.23-.72 3.31-2 6-2m0-12C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 10c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
                     <h1>O mě</h1>
                 </div>
-                <p>Jsem celkem normálním studentem druhého ročníku se zájmy o programování, počítačové sítě a obecně cokoliv, co má něco společného s IT. Mezi mé silné stránky patří především nadprůměrné schopnostmi <b>problem solvingu</b>, schopnost <b>rychle se učit</b> a vynikající prospěch v IT oborech.</p>
+                <p>Jsem studentem <b>třetího ročníku</b> <a href="https://infis.cz">Střední školy informatiky a finančních služeb, Plzeň. Klatovská 200G</a>. Maturovat budu ve školním roce 2027/28, a poté budu nejspíše pokračovat ve studiu na <a href="https://zcu.cz">Západočeské univerzitě v Plzni</a>.</p>
+                <p>Mezi mé silné stránky patří dobrá schpnost <b>problem solvingu</b>, schopnost <b>rychle se učit</b> a vynikající prospěch v IT oborech.</p>
+            </div>
+            
+            <div class="section">
+                <div class="head">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 4h2v5l-1-.75L9 9V4zm9 16H6V4h1v9l3-2.25L13 13V4h5v16z"/></svg>
+                    <h1>Vzdělání</h1>
+                </div>
+                <div id="timeline">
+                    <h3>Časová osa</h3>
+                    <ul>
+                        <li><b>Září 2023 - součastnost</b> <br> <a href="https://infis.cz">Střední školy informatiky a finančních služeb, Plzeň. Klatovská 200G</a></li>
+                        <li><b>Září 2015 - Červen 2023</b> <br> Základní vzdělání</li>
+                    </ul>
+                </div>
+
+                <p>Mezi mé studijní úspěchy patří například úspěšná účast v projektu <a href="https://mimoradnestudium.zcu.cz/">Mimořádné studium</a> na <a href="https://zcu.cz">ZČU</a> v prvním pololetí školního roku 2025/26, a to v oboru počítače a programování. Za absolvování předmětu jsem obdržel <a href="https://drive.google.com/file/d/1SZVGBUyY4DMwZ7-I8UCIkbYXZx0WNKOC/view?usp=sharing">osvědčení</a>.</p>
             </div>
         </div>
 
         <footer>
-            Toto není šablona! Zdrojový kód je k nalezení <a href="">zde</a>
+            Toto není šablona! Zdrojový kód je k nalezení <a href="https://github.com/j0hner/CV">zde</a>
         </footer>
     </div>
 </body>
